@@ -6,16 +6,19 @@
   font-family: 'Montserrat', sans-serif;
 
 }
+
 .Container{
   width: 100%;
+  /* max-width: 1050px;  */
   height: 100%;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: flex-start;
-  padding: 50px 35px;
+  padding: 50px 0 10px 0;
   background-color: rgb(66, 66, 66);
 }
+
 .body{
   overflow: hidden;
 }
@@ -31,6 +34,19 @@
   height: 180px;
   margin: 6px;
   font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.img01 {
+  width: 100px; 
+  height: 100px; 
+  margin-right: 15px;
+}
+
+.img01 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px; 
 }
 
 .content {
@@ -98,7 +114,7 @@ h1, h2, h3, h4, h5, h6, p, a {
 /* Navbar CSS */
 
 .Navbar{
-  /* background-color: rgb(171, 171, 171); */
+  background-color: rgb(171, 171, 171);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -106,6 +122,8 @@ h1, h2, h3, h4, h5, h6, p, a {
 }
 .Navbar img{
   padding: 15px;
+  height: 50px;
+  width: 45px;
 }
 .list01{
   display: flex;

@@ -1,9 +1,10 @@
 import React from 'react'
+import logo from '../assets/logo.png';
 
 export const Navbar = () => {
   return (
     <div className='Navbar'>
-        <img src="#" alt="logo" />
+        <img src={logo} alt="logo" />
         <div className="navList">
             <ul className='list01'>
                 <li><a href="">Docs</a></li>

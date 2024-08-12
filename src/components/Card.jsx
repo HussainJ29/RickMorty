@@ -2,11 +2,11 @@ import React from 'react'
 import RickImage from '../assets/rick.png';
 
 
-const Card = () => {
+const Card = ({image}) => {
   return (
         <div className='card'>
           <div className='img01'>
-            <img src="{RickImage}" alt="image" />
+            <img src={image} alt="image" />
           </div>
           <div className="content">
             <div className='sec-1'>
